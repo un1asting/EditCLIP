@@ -1,0 +1,272 @@
+[
+  {
+    "id": "001",
+    "source_img": "evaluation_samples/images/001_source.jpg",
+    "edited_img": "evaluation_samples/images/001_edited.jpg",
+    "instruction": "add a red apple on the table",
+    "edit_type": "object_add",
+    "description": "Add a red apple to an empty table",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "002",
+    "source_img": "evaluation_samples/images/002_source.jpg",
+    "edited_img": "evaluation_samples/images/002_edited.jpg",
+    "instruction": "place a white cat next to the sofa",
+    "edit_type": "object_add",
+    "description": "Add a cat in a living room scene",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "003",
+    "source_img": "evaluation_samples/images/003_source.jpg",
+    "edited_img": "evaluation_samples/images/003_edited.jpg",
+    "instruction": "insert a blue umbrella in the person's hand",
+    "edit_type": "object_add",
+    "description": "Add an umbrella to a person portrait",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "004",
+    "source_img": "evaluation_samples/images/004_source.jpg",
+    "edited_img": "evaluation_samples/images/004_edited.jpg",
+    "instruction": "put a vase with flowers on the windowsill",
+    "edit_type": "object_add",
+    "description": "Add flowers to interior scene",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "005",
+    "source_img": "evaluation_samples/images/005_source.jpg",
+    "edited_img": "evaluation_samples/images/005_edited.jpg",
+    "instruction": "add birds flying in the sky",
+    "edit_type": "object_add",
+    "description": "Add birds to outdoor landscape",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "006",
+    "source_img": "evaluation_samples/images/006_source.jpg",
+    "edited_img": "evaluation_samples/images/006_edited.jpg",
+    "instruction": "remove the car from the street",
+    "edit_type": "object_remove",
+    "description": "Remove car from street scene",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "007",
+    "source_img": "evaluation_samples/images/007_source.jpg",
+    "edited_img": "evaluation_samples/images/007_edited.jpg",
+    "instruction": "delete the person from the photo",
+    "edit_type": "object_remove",
+    "description": "Remove person from image",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "008",
+    "source_img": "evaluation_samples/images/008_source.jpg",
+    "edited_img": "evaluation_samples/images/008_edited.jpg",
+    "instruction": "erase the text from the sign",
+    "edit_type": "object_remove",
+    "description": "Clean text from signage",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "009",
+    "source_img": "evaluation_samples/images/009_source.jpg",
+    "edited_img": "evaluation_samples/images/009_edited.jpg",
+    "instruction": "take away the lamp from the desk",
+    "edit_type": "object_remove",
+    "description": "Remove object from furniture",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "010",
+    "source_img": "evaluation_samples/images/010_source.jpg",
+    "edited_img": "evaluation_samples/images/010_edited.jpg",
+    "instruction": "remove the clouds from the sky",
+    "edit_type": "object_remove",
+    "description": "Clear sky in landscape",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "011",
+    "source_img": "evaluation_samples/images/011_source.jpg",
+    "edited_img": "evaluation_samples/images/011_edited.jpg",
+    "instruction": "change the car to red color",
+    "edit_type": "color_change",
+    "description": "Change vehicle color",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "012",
+    "source_img": "evaluation_samples/images/012_source.jpg",
+    "edited_img": "evaluation_samples/images/012_edited.jpg",
+    "instruction": "make the walls blue",
+    "edit_type": "color_change",
+    "description": "Recolor interior walls",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "013",
+    "source_img": "evaluation_samples/images/013_source.jpg",
+    "edited_img": "evaluation_samples/images/013_edited.jpg",
+    "instruction": "turn the dress from white to black",
+    "edit_type": "color_change",
+    "description": "Change clothing color",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "014",
+    "source_img": "evaluation_samples/images/014_source.jpg",
+    "edited_img": "evaluation_samples/images/014_edited.jpg",
+    "instruction": "make the grass more green",
+    "edit_type": "color_change",
+    "description": "Enhance grass color",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "015",
+    "source_img": "evaluation_samples/images/015_source.jpg",
+    "edited_img": "evaluation_samples/images/015_edited.jpg",
+    "instruction": "change the sky from blue to orange sunset",
+    "edit_type": "color_change",
+    "description": "Change sky color/lighting",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "016",
+    "source_img": "evaluation_samples/images/016_source.jpg",
+    "edited_img": "evaluation_samples/images/016_edited.jpg",
+    "instruction": "make it look like a watercolor painting",
+    "edit_type": "style_transfer",
+    "description": "Apply watercolor style",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "017",
+    "source_img": "evaluation_samples/images/017_source.jpg",
+    "edited_img": "evaluation_samples/images/017_edited.jpg",
+    "instruction": "convert to pencil sketch style",
+    "edit_type": "style_transfer",
+    "description": "Apply sketch style",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "018",
+    "source_img": "evaluation_samples/images/018_source.jpg",
+    "edited_img": "evaluation_samples/images/018_edited.jpg",
+    "instruction": "make it look like a van gogh painting",
+    "edit_type": "style_transfer",
+    "description": "Apply Van Gogh artistic style",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "019",
+    "source_img": "evaluation_samples/images/019_source.jpg",
+    "edited_img": "evaluation_samples/images/019_edited.jpg",
+    "instruction": "turn into cartoon style",
+    "edit_type": "style_transfer",
+    "description": "Apply cartoon/animation style",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "020",
+    "source_img": "evaluation_samples/images/020_source.jpg",
+    "edited_img": "evaluation_samples/images/020_edited.jpg",
+    "instruction": "make it look like an oil painting",
+    "edit_type": "style_transfer",
+    "description": "Apply oil painting style",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "021",
+    "source_img": "evaluation_samples/images/021_source.jpg",
+    "edited_img": "evaluation_samples/images/021_edited.jpg",
+    "instruction": "brighten image",
+    "edit_type": "small_edit",
+    "description": "Increase brightness",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "022",
+    "source_img": "evaluation_samples/images/022_source.jpg",
+    "edited_img": "evaluation_samples/images/022_edited.jpg",
+    "instruction": "add smile",
+    "edit_type": "small_edit",
+    "description": "Make person smile",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "023",
+    "source_img": "evaluation_samples/images/023_source.jpg",
+    "edited_img": "evaluation_samples/images/023_edited.jpg",
+    "instruction": "blur background",
+    "edit_type": "small_edit",
+    "description": "Apply background blur",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "024",
+    "source_img": "evaluation_samples/images/024_source.jpg",
+    "edited_img": "evaluation_samples/images/024_edited.jpg",
+    "instruction": "open eyes",
+    "edit_type": "small_edit",
+    "description": "Open closed eyes",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "025",
+    "source_img": "evaluation_samples/images/025_source.jpg",
+    "edited_img": "evaluation_samples/images/025_edited.jpg",
+    "instruction": "rotate left",
+    "edit_type": "small_edit",
+    "description": "Rotate image orientation",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "026",
+    "source_img": "evaluation_samples/images/026_source.jpg",
+    "edited_img": "evaluation_samples/images/026_edited.jpg",
+    "instruction": "change the daytime scene to nighttime with street lights on",
+    "edit_type": "large_edit",
+    "description": "Transform day to night with lighting changes",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "027",
+    "source_img": "evaluation_samples/images/027_source.jpg",
+    "edited_img": "evaluation_samples/images/027_edited.jpg",
+    "instruction": "replace the summer trees with autumn colored leaves and add fallen leaves on ground",
+    "edit_type": "large_edit",
+    "description": "Seasonal transformation with multiple elements",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "028",
+    "source_img": "evaluation_samples/images/028_source.jpg",
+    "edited_img": "evaluation_samples/images/028_edited.jpg",
+    "instruction": "transform the empty room into a cozy living space with furniture and decorations",
+    "edit_type": "large_edit",
+    "description": "Complete room transformation",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "029",
+    "source_img": "evaluation_samples/images/029_source.jpg",
+    "edited_img": "evaluation_samples/images/029_edited.jpg",
+    "instruction": "change the modern building facade to a classical architectural style",
+    "edit_type": "large_edit",
+    "description": "Architectural style transformation",
+    "dataset_source": "demo"
+  },
+  {
+    "id": "030",
+    "source_img": "evaluation_samples/images/030_source.jpg",
+    "edited_img": "evaluation_samples/images/030_edited.jpg",
+    "instruction": "convert the indoor scene to an outdoor garden setting with natural lighting",
+    "edit_type": "large_edit",
+    "description": "Complete scene/environment transformation",
+    "dataset_source": "demo"
+  }
+]
