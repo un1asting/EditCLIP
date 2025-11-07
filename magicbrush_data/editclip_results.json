@@ -1,0 +1,254 @@
+{
+  "statistics": {
+    "num_samples": 30,
+    "mean_score": 0.21454328522086144,
+    "std_score": 0.049552909412682825,
+    "min_score": 0.11301002651453018,
+    "max_score": 0.29838913679122925,
+    "model": "EditCLIP",
+    "resolution": 256,
+    "score_type": "图像编辑与文本指令的匹配度"
+  },
+  "results": [
+    {
+      "id": 0,
+      "instruction": "change the table for a dog",
+      "source_image": "images/sample_000_source.jpg",
+      "target_image": "images/sample_000_target.jpg",
+      "editclip_score": 0.17992033064365387,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 1,
+      "instruction": "leave only words on the page",
+      "source_image": "images/sample_001_source.jpg",
+      "target_image": "images/sample_001_target.jpg",
+      "editclip_score": 0.18842282891273499,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 2,
+      "instruction": "leave words only on half the page",
+      "source_image": "images/sample_002_source.jpg",
+      "target_image": "images/sample_002_target.jpg",
+      "editclip_score": 0.2474166452884674,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 3,
+      "instruction": "leave only the scissor on  the cup",
+      "source_image": "images/sample_003_source.jpg",
+      "target_image": "images/sample_003_target.jpg",
+      "editclip_score": 0.20938223600387573,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 4,
+      "instruction": "the window is now square",
+      "source_image": "images/sample_004_source.jpg",
+      "target_image": "images/sample_004_target.jpg",
+      "editclip_score": 0.1398819237947464,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 5,
+      "instruction": "let the car be a sports car",
+      "source_image": "images/sample_005_source.jpg",
+      "target_image": "images/sample_005_target.jpg",
+      "editclip_score": 0.20549514889717102,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 6,
+      "instruction": "remove the mesh screen",
+      "source_image": "images/sample_006_source.jpg",
+      "target_image": "images/sample_006_target.jpg",
+      "editclip_score": 0.12241849303245544,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 7,
+      "instruction": "replace some bags with throw pillows",
+      "source_image": "images/sample_007_source.jpg",
+      "target_image": "images/sample_007_target.jpg",
+      "editclip_score": 0.2671678364276886,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 8,
+      "instruction": "turn the stop sign into a no parking sign",
+      "source_image": "images/sample_008_source.jpg",
+      "target_image": "images/sample_008_target.jpg",
+      "editclip_score": 0.23714439570903778,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 9,
+      "instruction": "remove the lower sign",
+      "source_image": "images/sample_009_source.jpg",
+      "target_image": "images/sample_009_target.jpg",
+      "editclip_score": 0.241529181599617,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 10,
+      "instruction": "Let the sheep turn white.",
+      "source_image": "images/sample_010_source.jpg",
+      "target_image": "images/sample_010_target.jpg",
+      "editclip_score": 0.19837205111980438,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 11,
+      "instruction": "Have the business be called Bongos.",
+      "source_image": "images/sample_011_source.jpg",
+      "target_image": "images/sample_011_target.jpg",
+      "editclip_score": 0.19142791628837585,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 12,
+      "instruction": "Turn the stop sign into a lollipop.",
+      "source_image": "images/sample_012_source.jpg",
+      "target_image": "images/sample_012_target.jpg",
+      "editclip_score": 0.21646825969219208,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 13,
+      "instruction": "make that backpack all black",
+      "source_image": "images/sample_013_source.jpg",
+      "target_image": "images/sample_013_target.jpg",
+      "editclip_score": 0.2655954658985138,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 14,
+      "instruction": "make the girl ginger",
+      "source_image": "images/sample_014_source.jpg",
+      "target_image": "images/sample_014_target.jpg",
+      "editclip_score": 0.21754971146583557,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 15,
+      "instruction": "Give the person a cape.",
+      "source_image": "images/sample_015_source.jpg",
+      "target_image": "images/sample_015_target.jpg",
+      "editclip_score": 0.18215854465961456,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 16,
+      "instruction": "let the dogs bite a stuffed toy",
+      "source_image": "images/sample_016_source.jpg",
+      "target_image": "images/sample_016_target.jpg",
+      "editclip_score": 0.2814066708087921,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 17,
+      "instruction": "let the dogs wear jackets",
+      "source_image": "images/sample_017_source.jpg",
+      "target_image": "images/sample_017_target.jpg",
+      "editclip_score": 0.2665955126285553,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 18,
+      "instruction": "Get rid of all the people.",
+      "source_image": "images/sample_018_source.jpg",
+      "target_image": "images/sample_018_target.jpg",
+      "editclip_score": 0.11604303121566772,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 19,
+      "instruction": "Make the umbrellas blue.",
+      "source_image": "images/sample_019_source.jpg",
+      "target_image": "images/sample_019_target.jpg",
+      "editclip_score": 0.29838913679122925,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 20,
+      "instruction": "Add a big dog.",
+      "source_image": "images/sample_020_source.jpg",
+      "target_image": "images/sample_020_target.jpg",
+      "editclip_score": 0.2084653079509735,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 21,
+      "instruction": "change the grass to water",
+      "source_image": "images/sample_021_source.jpg",
+      "target_image": "images/sample_021_target.jpg",
+      "editclip_score": 0.11301002651453018,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 22,
+      "instruction": "make the airplane a toy airplane",
+      "source_image": "images/sample_022_source.jpg",
+      "target_image": "images/sample_022_target.jpg",
+      "editclip_score": 0.25370973348617554,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 23,
+      "instruction": "What if it was another car on it?",
+      "source_image": "images/sample_023_source.jpg",
+      "target_image": "images/sample_023_target.jpg",
+      "editclip_score": 0.19934923946857452,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 24,
+      "instruction": "The background should be of a mountain.",
+      "source_image": "images/sample_024_source.jpg",
+      "target_image": "images/sample_024_target.jpg",
+      "editclip_score": 0.15865202248096466,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 25,
+      "instruction": "let the cellphone screen be blue",
+      "source_image": "images/sample_025_source.jpg",
+      "target_image": "images/sample_025_target.jpg",
+      "editclip_score": 0.20819319784641266,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 26,
+      "instruction": "let the laptop be black",
+      "source_image": "images/sample_026_source.jpg",
+      "target_image": "images/sample_026_target.jpg",
+      "editclip_score": 0.2621767818927765,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 27,
+      "instruction": "remove the microwave and stove and put a refrigerator in it's place",
+      "source_image": "images/sample_027_source.jpg",
+      "target_image": "images/sample_027_target.jpg",
+      "editclip_score": 0.28780266642570496,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 28,
+      "instruction": "swap the cabinet for a shelf",
+      "source_image": "images/sample_028_source.jpg",
+      "target_image": "images/sample_028_target.jpg",
+      "editclip_score": 0.248533695936203,
+      "model": "EditCLIP"
+    },
+    {
+      "id": 29,
+      "instruction": "add a bullet train",
+      "source_image": "images/sample_029_source.jpg",
+      "target_image": "images/sample_029_target.jpg",
+      "editclip_score": 0.22362056374549866,
+      "model": "EditCLIP"
+    }
+  ]
+}
