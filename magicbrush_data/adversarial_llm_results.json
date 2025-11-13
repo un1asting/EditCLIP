@@ -1,0 +1,92 @@
+{
+  "statistics": {
+    "num_samples": 9,
+    "correct_samples": 3,
+    "wrong_samples": 6,
+    "mean_score_correct": 8.67,
+    "mean_score_wrong": 2.75,
+    "discrimination": 5.92,
+    "model": "Claude-3.5-Sonnet",
+    "note": "对抗性测试LLM评估 - 关键样本（EditCLIP最易被骗的）"
+  },
+  "results": [
+    {
+      "id": "wrong_019",
+      "instruction": "make the umbrellas yellow.",
+      "is_correct": false,
+      "error_type": "color_mismatch",
+      "editclip_score": 0.2258,
+      "llm_score": 2.0,
+      "reasoning": "指令错误：说黄色但实际是蓝色。EditCLIP被骗（0.226），LLM正确识别。"
+    },
+    {
+      "id": "wrong_027",
+      "instruction": "remove the blender and stove and put a refrigerator",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "editclip_score": 0.2746,
+      "llm_score": 3.5,
+      "reasoning": "说blender但实际是microwave。EditCLIP给最高分（0.275）被严重误导，LLM识别出对象错误。"
+    },
+    {
+      "id": "wrong_009",
+      "instruction": "add the lower sign",
+      "is_correct": false,
+      "error_type": "action_reversal",
+      "editclip_score": 0.2304,
+      "llm_score": 2.5,
+      "reasoning": "动作反转：说add但实际是remove。图像中下方标志被移除了。EditCLIP给中等分，LLM能识别动作方向错误。"
+    },
+    {
+      "id": "wrong_002",
+      "instruction": "leave words only on whole the page",
+      "is_correct": false,
+      "error_type": "quantity_mismatch",
+      "editclip_score": 0.2257,
+      "llm_score": 3.0,
+      "reasoning": "数量错误：说whole page但实际只有half page。EditCLIP给中等分，LLM能看出只有半页。"
+    },
+    {
+      "id": "wrong_024",
+      "instruction": "the backgoval should be of a mountain",
+      "is_correct": false,
+      "error_type": "attribute_mismatch",
+      "editclip_score": 0.1494,
+      "llm_score": 2.0,
+      "reasoning": "指令有错字backgoval。但即使理解为background，也需要判断是否真的有山。EditCLIP低分，LLM也低分。"
+    },
+    {
+      "id": "wrong_012",
+      "instruction": "make everything grayscale",
+      "is_correct": false,
+      "error_type": "completely_unrelated",
+      "editclip_score": 0.1568,
+      "llm_score": 1.5,
+      "reasoning": "完全无关的指令。图像是stop sign变lollipop，不是灰度化。EditCLIP和LLM都给低分。"
+    },
+    {
+      "id": "correct_000",
+      "instruction": "change the table for a dog",
+      "is_correct": true,
+      "editclip_score": 0.1799,
+      "llm_score": 8.0,
+      "reasoning": "正确的编辑和指令。桌子变狗，执行正确。"
+    },
+    {
+      "id": "correct_001",
+      "instruction": "leave only words on the page",
+      "is_correct": true,
+      "editclip_score": 0.1884,
+      "llm_score": 9.0,
+      "reasoning": "正确编辑。页面只保留文字，其他移除。"
+    },
+    {
+      "id": "correct_002",
+      "instruction": "leave words only on half the page",
+      "is_correct": true,
+      "editclip_score": 0.2474,
+      "llm_score": 9.0,
+      "reasoning": "正确编辑。半页保留文字，执行准确。"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "wrong_009",
+    "original_id": 9,
+    "source_image": "images/sample_009_source.jpg",
+    "target_image": "images/sample_009_target.jpg",
+    "instruction": "add the lower sign",
+    "is_correct": false,
+    "error_type": "action_reversal",
+    "original_instruction": "remove the lower sign",
+    "editclip_score": 0.23043739795684814
+  },
+  {
+    "id": "wrong_024",
+    "original_id": 24,
+    "source_image": "images/sample_024_source.jpg",
+    "target_image": "images/sample_024_target.jpg",
+    "instruction": "the backgoval should be of a mountain.",
+    "is_correct": false,
+    "error_type": "attribute_mismatch",
+    "original_instruction": "The background should be of a mountain.",
+    "editclip_score": 0.1493934988975525
+  },
+  {
+    "id": "wrong_019",
+    "original_id": 19,
+    "source_image": "images/sample_019_source.jpg",
+    "target_image": "images/sample_019_target.jpg",
+    "instruction": "make the umbrellas yellow.",
+    "is_correct": false,
+    "error_type": "color_mismatch",
+    "original_instruction": "Make the umbrellas blue.",
+    "editclip_score": 0.22578102350234985
+  },
+  {
+    "id": "wrong_012",
+    "original_id": 12,
+    "source_image": "images/sample_012_source.jpg",
+    "target_image": "images/sample_012_target.jpg",
+    "instruction": "make everything grayscale",
+    "is_correct": false,
+    "error_type": "completely_unrelated",
+    "original_instruction": "Turn the stop sign into a lollipop.",
+    "editclip_score": 0.15680064260959625
+  },
+  {
+    "id": "wrong_027",
+    "original_id": 27,
+    "source_image": "images/sample_027_source.jpg",
+    "target_image": "images/sample_027_target.jpg",
+    "instruction": "remove the blender and stove and put a refrigerator in it's place",
+    "is_correct": false,
+    "error_type": "object_mismatch",
+    "original_instruction": "remove the microwave and stove and put a refrigerator in it's place",
+    "editclip_score": 0.27456095814704895
+  },
+  {
+    "id": "wrong_002",
+    "original_id": 2,
+    "source_image": "images/sample_002_source.jpg",
+    "target_image": "images/sample_002_target.jpg",
+    "instruction": "leave words only on whole the page",
+    "is_correct": false,
+    "error_type": "quantity_mismatch",
+    "original_instruction": "leave words only on half the page",
+    "editclip_score": 0.22569440305233002
+  },
+  {
+    "id": "correct_000",
+    "original_id": 0,
+    "source_image": "images/sample_000_source.jpg",
+    "target_image": "images/sample_000_target.jpg",
+    "instruction": "change the table for a dog",
+    "is_correct": true,
+    "error_type": null,
+    "editclip_score": 0.17992033064365387
+  },
+  {
+    "id": "correct_001",
+    "original_id": 1,
+    "source_image": "images/sample_001_source.jpg",
+    "target_image": "images/sample_001_target.jpg",
+    "instruction": "leave only words on the page",
+    "is_correct": true,
+    "error_type": null,
+    "editclip_score": 0.18842282891273499
+  },
+  {
+    "id": "correct_002",
+    "original_id": 2,
+    "source_image": "images/sample_002_source.jpg",
+    "target_image": "images/sample_002_target.jpg",
+    "instruction": "leave words only on half the page",
+    "is_correct": true,
+    "error_type": null,
+    "editclip_score": 0.2474166452884674
+  }
+]
