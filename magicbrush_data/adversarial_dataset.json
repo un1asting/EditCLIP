@@ -1,0 +1,588 @@
+{
+  "dataset_info": {
+    "total_samples": 60,
+    "correct_samples": 30,
+    "wrong_samples": 30,
+    "error_types": [
+      "action_reversal",
+      "object_mismatch",
+      "quantity_mismatch",
+      "attribute_mismatch",
+      "color_mismatch",
+      "completely_unrelated"
+    ],
+    "description": "对抗性测试数据集：包含正确和错误的指令配对，用于测试评估方法的鲁棒性"
+  },
+  "samples": [
+    {
+      "id": "correct_000",
+      "original_id": 0,
+      "source_image": "images/sample_000_source.jpg",
+      "target_image": "images/sample_000_target.jpg",
+      "instruction": "change the table for a dog",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_000",
+      "original_id": 0,
+      "source_image": "images/sample_000_source.jpg",
+      "target_image": "images/sample_000_target.jpg",
+      "instruction": "change the table for a rabbit",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "change the table for a dog"
+    },
+    {
+      "id": "correct_001",
+      "original_id": 1,
+      "source_image": "images/sample_001_source.jpg",
+      "target_image": "images/sample_001_target.jpg",
+      "instruction": "leave only words on the page",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_001",
+      "original_id": 1,
+      "source_image": "images/sample_001_source.jpg",
+      "target_image": "images/sample_001_target.jpg",
+      "instruction": "add a mirror reflection",
+      "is_correct": false,
+      "error_type": "completely_unrelated",
+      "original_instruction": "leave only words on the page"
+    },
+    {
+      "id": "correct_002",
+      "original_id": 2,
+      "source_image": "images/sample_002_source.jpg",
+      "target_image": "images/sample_002_target.jpg",
+      "instruction": "leave words only on half the page",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_002",
+      "original_id": 2,
+      "source_image": "images/sample_002_source.jpg",
+      "target_image": "images/sample_002_target.jpg",
+      "instruction": "leave words only on whole the page",
+      "is_correct": false,
+      "error_type": "quantity_mismatch",
+      "original_instruction": "leave words only on half the page"
+    },
+    {
+      "id": "correct_003",
+      "original_id": 3,
+      "source_image": "images/sample_003_source.jpg",
+      "target_image": "images/sample_003_target.jpg",
+      "instruction": "leave only the scissor on  the cup",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_003",
+      "original_id": 3,
+      "source_image": "images/sample_003_source.jpg",
+      "target_image": "images/sample_003_target.jpg",
+      "instruction": "make it look vintage",
+      "is_correct": false,
+      "error_type": "completely_unrelated",
+      "original_instruction": "leave only the scissor on  the cup"
+    },
+    {
+      "id": "correct_004",
+      "original_id": 4,
+      "source_image": "images/sample_004_source.jpg",
+      "target_image": "images/sample_004_target.jpg",
+      "instruction": "the window is now square",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_004",
+      "original_id": 4,
+      "source_image": "images/sample_004_source.jpg",
+      "target_image": "images/sample_004_target.jpg",
+      "instruction": "the door is now square",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "the window is now square"
+    },
+    {
+      "id": "correct_005",
+      "original_id": 5,
+      "source_image": "images/sample_005_source.jpg",
+      "target_image": "images/sample_005_target.jpg",
+      "instruction": "let the car be a sports car",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_005",
+      "original_id": 5,
+      "source_image": "images/sample_005_source.jpg",
+      "target_image": "images/sample_005_target.jpg",
+      "instruction": "let the truck be a sports truck",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "let the car be a sports car"
+    },
+    {
+      "id": "correct_006",
+      "original_id": 6,
+      "source_image": "images/sample_006_source.jpg",
+      "target_image": "images/sample_006_target.jpg",
+      "instruction": "remove the mesh screen",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_006",
+      "original_id": 6,
+      "source_image": "images/sample_006_source.jpg",
+      "target_image": "images/sample_006_target.jpg",
+      "instruction": "add the mesh screen",
+      "is_correct": false,
+      "error_type": "action_reversal",
+      "original_instruction": "remove the mesh screen"
+    },
+    {
+      "id": "correct_007",
+      "original_id": 7,
+      "source_image": "images/sample_007_source.jpg",
+      "target_image": "images/sample_007_target.jpg",
+      "instruction": "replace some bags with throw pillows",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_007",
+      "original_id": 7,
+      "source_image": "images/sample_007_source.jpg",
+      "target_image": "images/sample_007_target.jpg",
+      "instruction": "replace some baskets with throw pillows",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "replace some bags with throw pillows"
+    },
+    {
+      "id": "correct_008",
+      "original_id": 8,
+      "source_image": "images/sample_008_source.jpg",
+      "target_image": "images/sample_008_target.jpg",
+      "instruction": "turn the stop sign into a no parking sign",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_008",
+      "original_id": 8,
+      "source_image": "images/sample_008_source.jpg",
+      "target_image": "images/sample_008_target.jpg",
+      "instruction": "add falling snow",
+      "is_correct": false,
+      "error_type": "completely_unrelated",
+      "original_instruction": "turn the stop sign into a no parking sign"
+    },
+    {
+      "id": "correct_009",
+      "original_id": 9,
+      "source_image": "images/sample_009_source.jpg",
+      "target_image": "images/sample_009_target.jpg",
+      "instruction": "remove the lower sign",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_009",
+      "original_id": 9,
+      "source_image": "images/sample_009_source.jpg",
+      "target_image": "images/sample_009_target.jpg",
+      "instruction": "add the lower sign",
+      "is_correct": false,
+      "error_type": "action_reversal",
+      "original_instruction": "remove the lower sign"
+    },
+    {
+      "id": "correct_010",
+      "original_id": 10,
+      "source_image": "images/sample_010_source.jpg",
+      "target_image": "images/sample_010_target.jpg",
+      "instruction": "Let the sheep turn white.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_010",
+      "original_id": 10,
+      "source_image": "images/sample_010_source.jpg",
+      "target_image": "images/sample_010_target.jpg",
+      "instruction": "let the sheep turn red.",
+      "is_correct": false,
+      "error_type": "color_mismatch",
+      "original_instruction": "Let the sheep turn white."
+    },
+    {
+      "id": "correct_011",
+      "original_id": 11,
+      "source_image": "images/sample_011_source.jpg",
+      "target_image": "images/sample_011_target.jpg",
+      "instruction": "Have the business be called Bongos.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_011",
+      "original_id": 11,
+      "source_image": "images/sample_011_source.jpg",
+      "target_image": "images/sample_011_target.jpg",
+      "instruction": "have the business be csomeed bongos.",
+      "is_correct": false,
+      "error_type": "quantity_mismatch",
+      "original_instruction": "Have the business be called Bongos."
+    },
+    {
+      "id": "correct_012",
+      "original_id": 12,
+      "source_image": "images/sample_012_source.jpg",
+      "target_image": "images/sample_012_target.jpg",
+      "instruction": "Turn the stop sign into a lollipop.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_012",
+      "original_id": 12,
+      "source_image": "images/sample_012_source.jpg",
+      "target_image": "images/sample_012_target.jpg",
+      "instruction": "make everything grayscale",
+      "is_correct": false,
+      "error_type": "completely_unrelated",
+      "original_instruction": "Turn the stop sign into a lollipop."
+    },
+    {
+      "id": "correct_013",
+      "original_id": 13,
+      "source_image": "images/sample_013_source.jpg",
+      "target_image": "images/sample_013_target.jpg",
+      "instruction": "make that backpack all black",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_013",
+      "original_id": 13,
+      "source_image": "images/sample_013_source.jpg",
+      "target_image": "images/sample_013_target.jpg",
+      "instruction": "make that backpack all white",
+      "is_correct": false,
+      "error_type": "color_mismatch",
+      "original_instruction": "make that backpack all black"
+    },
+    {
+      "id": "correct_014",
+      "original_id": 14,
+      "source_image": "images/sample_014_source.jpg",
+      "target_image": "images/sample_014_target.jpg",
+      "instruction": "make the girl ginger",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_014",
+      "original_id": 14,
+      "source_image": "images/sample_014_source.jpg",
+      "target_image": "images/sample_014_target.jpg",
+      "instruction": "make the girl brunette",
+      "is_correct": false,
+      "error_type": "color_mismatch",
+      "original_instruction": "make the girl ginger"
+    },
+    {
+      "id": "correct_015",
+      "original_id": 15,
+      "source_image": "images/sample_015_source.jpg",
+      "target_image": "images/sample_015_target.jpg",
+      "instruction": "Give the person a cape.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_015",
+      "original_id": 15,
+      "source_image": "images/sample_015_source.jpg",
+      "target_image": "images/sample_015_target.jpg",
+      "instruction": "remove the person a cape.",
+      "is_correct": false,
+      "error_type": "action_reversal",
+      "original_instruction": "Give the person a cape."
+    },
+    {
+      "id": "correct_016",
+      "original_id": 16,
+      "source_image": "images/sample_016_source.jpg",
+      "target_image": "images/sample_016_target.jpg",
+      "instruction": "let the dogs bite a stuffed toy",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_016",
+      "original_id": 16,
+      "source_image": "images/sample_016_source.jpg",
+      "target_image": "images/sample_016_target.jpg",
+      "instruction": "let the cats bite a stuffed toy",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "let the dogs bite a stuffed toy"
+    },
+    {
+      "id": "correct_017",
+      "original_id": 17,
+      "source_image": "images/sample_017_source.jpg",
+      "target_image": "images/sample_017_target.jpg",
+      "instruction": "let the dogs wear jackets",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_017",
+      "original_id": 17,
+      "source_image": "images/sample_017_source.jpg",
+      "target_image": "images/sample_017_target.jpg",
+      "instruction": "let the rabbits wear jackets",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "let the dogs wear jackets"
+    },
+    {
+      "id": "correct_018",
+      "original_id": 18,
+      "source_image": "images/sample_018_source.jpg",
+      "target_image": "images/sample_018_target.jpg",
+      "instruction": "Get rid of all the people.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_018",
+      "original_id": 18,
+      "source_image": "images/sample_018_source.jpg",
+      "target_image": "images/sample_018_target.jpg",
+      "instruction": "add more all the people.",
+      "is_correct": false,
+      "error_type": "action_reversal",
+      "original_instruction": "Get rid of all the people."
+    },
+    {
+      "id": "correct_019",
+      "original_id": 19,
+      "source_image": "images/sample_019_source.jpg",
+      "target_image": "images/sample_019_target.jpg",
+      "instruction": "Make the umbrellas blue.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_019",
+      "original_id": 19,
+      "source_image": "images/sample_019_source.jpg",
+      "target_image": "images/sample_019_target.jpg",
+      "instruction": "make the umbrellas yellow.",
+      "is_correct": false,
+      "error_type": "color_mismatch",
+      "original_instruction": "Make the umbrellas blue."
+    },
+    {
+      "id": "correct_020",
+      "original_id": 20,
+      "source_image": "images/sample_020_source.jpg",
+      "target_image": "images/sample_020_target.jpg",
+      "instruction": "Add a big dog.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_020",
+      "original_id": 20,
+      "source_image": "images/sample_020_source.jpg",
+      "target_image": "images/sample_020_target.jpg",
+      "instruction": "add a big cat.",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "Add a big dog."
+    },
+    {
+      "id": "correct_021",
+      "original_id": 21,
+      "source_image": "images/sample_021_source.jpg",
+      "target_image": "images/sample_021_target.jpg",
+      "instruction": "change the grass to water",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_021",
+      "original_id": 21,
+      "source_image": "images/sample_021_source.jpg",
+      "target_image": "images/sample_021_target.jpg",
+      "instruction": "add falling snow",
+      "is_correct": false,
+      "error_type": "completely_unrelated",
+      "original_instruction": "change the grass to water"
+    },
+    {
+      "id": "correct_022",
+      "original_id": 22,
+      "source_image": "images/sample_022_source.jpg",
+      "target_image": "images/sample_022_target.jpg",
+      "instruction": "make the airplane a toy airplane",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_022",
+      "original_id": 22,
+      "source_image": "images/sample_022_source.jpg",
+      "target_image": "images/sample_022_target.jpg",
+      "instruction": "make the helicopter a toy helicopter",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "make the airplane a toy airplane"
+    },
+    {
+      "id": "correct_023",
+      "original_id": 23,
+      "source_image": "images/sample_023_source.jpg",
+      "target_image": "images/sample_023_target.jpg",
+      "instruction": "What if it was another car on it?",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_023",
+      "original_id": 23,
+      "source_image": "images/sample_023_source.jpg",
+      "target_image": "images/sample_023_target.jpg",
+      "instruction": "what if it was another motorcycle on it?",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "What if it was another car on it?"
+    },
+    {
+      "id": "correct_024",
+      "original_id": 24,
+      "source_image": "images/sample_024_source.jpg",
+      "target_image": "images/sample_024_target.jpg",
+      "instruction": "The background should be of a mountain.",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_024",
+      "original_id": 24,
+      "source_image": "images/sample_024_source.jpg",
+      "target_image": "images/sample_024_target.jpg",
+      "instruction": "the backgoval should be of a mountain.",
+      "is_correct": false,
+      "error_type": "attribute_mismatch",
+      "original_instruction": "The background should be of a mountain."
+    },
+    {
+      "id": "correct_025",
+      "original_id": 25,
+      "source_image": "images/sample_025_source.jpg",
+      "target_image": "images/sample_025_target.jpg",
+      "instruction": "let the cellphone screen be blue",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_025",
+      "original_id": 25,
+      "source_image": "images/sample_025_source.jpg",
+      "target_image": "images/sample_025_target.jpg",
+      "instruction": "let the cellphone screen be yellow",
+      "is_correct": false,
+      "error_type": "color_mismatch",
+      "original_instruction": "let the cellphone screen be blue"
+    },
+    {
+      "id": "correct_026",
+      "original_id": 26,
+      "source_image": "images/sample_026_source.jpg",
+      "target_image": "images/sample_026_target.jpg",
+      "instruction": "let the laptop be black",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_026",
+      "original_id": 26,
+      "source_image": "images/sample_026_source.jpg",
+      "target_image": "images/sample_026_target.jpg",
+      "instruction": "let the laptop be red",
+      "is_correct": false,
+      "error_type": "color_mismatch",
+      "original_instruction": "let the laptop be black"
+    },
+    {
+      "id": "correct_027",
+      "original_id": 27,
+      "source_image": "images/sample_027_source.jpg",
+      "target_image": "images/sample_027_target.jpg",
+      "instruction": "remove the microwave and stove and put a refrigerator in it's place",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_027",
+      "original_id": 27,
+      "source_image": "images/sample_027_source.jpg",
+      "target_image": "images/sample_027_target.jpg",
+      "instruction": "remove the blender and stove and put a refrigerator in it's place",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "remove the microwave and stove and put a refrigerator in it's place"
+    },
+    {
+      "id": "correct_028",
+      "original_id": 28,
+      "source_image": "images/sample_028_source.jpg",
+      "target_image": "images/sample_028_target.jpg",
+      "instruction": "swap the cabinet for a shelf",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_028",
+      "original_id": 28,
+      "source_image": "images/sample_028_source.jpg",
+      "target_image": "images/sample_028_target.jpg",
+      "instruction": "swap the drawer for a shelf",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "swap the cabinet for a shelf"
+    },
+    {
+      "id": "correct_029",
+      "original_id": 29,
+      "source_image": "images/sample_029_source.jpg",
+      "target_image": "images/sample_029_target.jpg",
+      "instruction": "add a bullet train",
+      "is_correct": true,
+      "error_type": null
+    },
+    {
+      "id": "wrong_029",
+      "original_id": 29,
+      "source_image": "images/sample_029_source.jpg",
+      "target_image": "images/sample_029_target.jpg",
+      "instruction": "add a bullet tram",
+      "is_correct": false,
+      "error_type": "object_mismatch",
+      "original_instruction": "add a bullet train"
+    }
+  ]
+}
